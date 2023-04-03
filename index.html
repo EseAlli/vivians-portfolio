@@ -5,103 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/css/output.css" rel="stylesheet" />
-    <title>Document</title>
+    <title>Vivian Nnabue's Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/5dfe7be28b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="">
     <main>
-      <header class="my-2 py-3 lg:py-6 container mx-auto"">
+      <header class="my-2 py-3 lg:py-6 container mx-auto px-1 relative">
         <nav class="flex justify-between">
-          <h2 class="text-xl">Vivian Nnabue</h2>
-          <ul class="flex gap-2 md:gap-4">
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Testimonial</li>
-            <li>Contact</li>
+          <h2 class="text-xl font-bold">Vivian Nnabue</h2>
+          <ul class="md:flex gap-2 md:gap-4 hidden">
+            <li>
+              <a href="#hello">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
+          <div id="menu-icon">
+            <i class="fa-light fa-bars"></i>
+          </div>
+
+          <div
+            class="hidden absolute right-0 h-screen -top-2 bg-white px-4 py-8 md:hidden"
+            id="mobile-menu"
+          >
+            <p class="text-right font-medium" id="close-btn">x</p>
+
+            <ul class="flex flex-col gap-y-8 mt-10 px-4">
+              <li class="uppercase font-medium">
+                <a href="#hello">Home</a>
+              </li>
+              <li class="uppercase font-medium">
+                <a href="#about">About</a>
+              </li>
+
+              <li class="uppercase font-medium">
+                <a href="#portfolio">Portfolio</a>
+              </li>
+
+              <li class="uppercase font-medium">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
-      <section class="bg-yellow-400">
+      <section class="bg-yellow-400" id="hello">
         <h1></h1>
         <div class="flex container mx-auto py-4 md:py-8 lg:py-20">
-            <div class="flex flex-col gap-2">
-                <p>Hello</p>
-                <h1 class="text-4xl lg:text-5xl font-semibold">I am Vivian</h1>
-                <p class="text-xl font-medium">Writer & Content Creator</p>
-                <p class="max-w-xl">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
-                  numquam enim quo aspernatur, excepturi itaque. Dolorem vel, illum
-                  pariatur enim necessitatibus architecto et nesciunt dolores odio?
-                  Eveniet porro repellendus inventore.
-                </p>
-                <div class="my-4">
-                    <button class="bg-yellow-600 px-4 md:px-6 lg:px-7 py-1 font-medium">Hire Me</button>
-                </div>
-              </div>
-              <div>
-                <p>Picture</p>
-              </div>
+          <div class="flex flex-col gap-2">
+            <p>Hello</p>
+            <h1 class="text-4xl lg:text-5xl font-semibold">I am Vivian</h1>
+            <p class="text-xl font-medium">Writer & Content Creator</p>
+            <p class="max-w-xl">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+              numquam enim quo aspernatur, excepturi itaque. Dolorem vel, illum
+              pariatur enim necessitatibus architecto et nesciunt dolores odio?
+              Eveniet porro repellendus inventore.
+            </p>
+            <div class="my-4">
+              <button
+                class="bg-yellow-600 px-4 md:px-6 lg:px-7 py-1 font-medium"
+              >
+                Hire Me
+              </button>
+            </div>
+          </div>
+          <div>
+            <p>Picture</p>
+          </div>
         </div>
       </section>
-      <section class="lg:py-20 container mx-auto flex">
+      <section class="lg:py-20 container mx-auto flex" id="about">
         <div class="w-full lg:w-1/2 flex flex-col gap-3 lg:gap-8">
           <h2 class="text-xl md:text-2xl lg:text-4xl">About Me</h2>
           <div class="flex flex-col gap-3">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                deserunt natus, fugit excepturi sequi quasi minus non doloribus enim
-                ullam architecto, ducimus hic voluptatum quae debitis nihil
-                provident at quos?
-              </p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              deserunt natus, fugit excepturi sequi quasi minus non doloribus
+              enim ullam architecto, ducimus hic voluptatum quae debitis nihil
+              provident at quos?
+            </p>
 
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                deserunt natus, fugit excepturi sequi quasi minus non doloribus enim
-                ullam architecto, ducimus hic voluptatum quae debitis nihil
-                provident at quos?
-              </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              deserunt natus, fugit excepturi sequi quasi minus non doloribus
+              enim ullam architecto, ducimus hic voluptatum quae debitis nihil
+              provident at quos?
+            </p>
           </div>
-         <div class="mt-5">
+          <div class="mt-5">
             <button class="bg-yellow-600 px-5 py-1">View My CV</button>
-         </div>
+          </div>
         </div>
         <div class="w-full lg:w-1/2">
-            <p class="text-5xl"> 2150+</p>
+          <p class="text-5xl">2150+</p>
         </div>
       </section>
-      <section class="bg-yellow-400 py-10 md:py-15 lg:py-24">
+      <section class="bg-yellow-400 py-10 md:py-15 lg:py-24" id="portfolio">
         <div class="container mx-auto">
-            <h2 class="text-4xl my-3">Portfolio</h2>
-            <div>
-                <h2 class="text-xl">Check out Brands I have worked with</h2>
-                <div class="flex gap-2 flex-wrap">
-                    <p>Ourfavepod</p>
-                    <p>Dotun Omiyale Photos</p>
-                    <p>Dleveral</p>
-                    <p>Dola Gbamboye Foundation</p>
-                    <p>Scentgenics</p>
-                </div>
+          <h2 class="text-4xl my-3">Portfolio</h2>
+          <div>
+            <h2 class="text-xl">Check out Brands I have worked with</h2>
+            <div class="flex gap-2 flex-wrap">
+              <p>Ourfavepod</p>
+              <p>Dotun Omiyale Photos</p>
+              <p>Dleveral</p>
+              <p>Dola Gbamboye Foundation</p>
+              <p>Scentgenics</p>
             </div>
+          </div>
 
-            <div class="my-4">
-                <p>Check out writings (articles and business proposals) I have done</p>
-                <div class="flex gap-4">
-                    <p>article</p>
-                    <p>article</p>
-                    <p>article</p>
-                    <p>article</p>
-                    <p>article</p>
-                    <p>article</p>
-
-                </div>
+          <div class="my-4">
+            <p>
+              Check out writings (articles and business proposals) I have done
+            </p>
+            <div class="flex gap-4 flex-wrap">
+              <p>article</p>
+              <p>article</p>
+              <p>article</p>
+              <p>article</p>
+              <p>article</p>
+              <p>article</p>
             </div>
-
+          </div>
         </div>
       </section>
-      <section class="container mx-auto py-5">
+      <section class="container mx-auto py-5" id="contact">
         <p>Contact Me</p>
       </section>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>
