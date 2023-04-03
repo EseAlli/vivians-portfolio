@@ -11,10 +11,12 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="">
+  <body class="min-h-screen">
     <main>
-      <header class="my-2 py-3 lg:py-6 container mx-auto px-1 relative">
-        <nav class="flex justify-between">
+      <header
+        class="my-2 py-3 lg:py-6 container mx-auto relative max-w-5xl px-4"
+      >
+        <nav class="flex justify-between items-center">
           <h2 class="text-xl font-bold">Vivian Nnabue</h2>
           <ul class="md:flex gap-2 md:gap-4 hidden">
             <li>
@@ -32,8 +34,12 @@
               <a href="#contact">Contact</a>
             </li>
           </ul>
-          <div id="menu-icon">
-            <i class="fa-light fa-bars"></i>
+          <div id="menu-icon" class="md:hidden">
+            <img
+              src="./assets/icons/icon-menu.svg"
+              alt="open-menu"
+              class="w-4 h-4"
+            />
           </div>
 
           <div
@@ -53,99 +59,214 @@
               <li class="uppercase font-medium">
                 <a href="#portfolio">Portfolio</a>
               </li>
-
-              <li class="uppercase font-medium">
-                <a href="#contact">Contact</a>
-              </li>
             </ul>
           </div>
         </nav>
       </header>
-      <section class="bg-yellow-400" id="hello">
+      <section class="bg-[#03898F] text-white" id="hello">
         <h1></h1>
-        <div class="flex container mx-auto py-4 md:py-8 lg:py-20">
-          <div class="flex flex-col gap-2">
-            <p>Hello</p>
-            <h1 class="text-4xl lg:text-5xl font-semibold">I am Vivian</h1>
-            <p class="text-xl font-medium">Writer & Content Creator</p>
-            <p class="max-w-xl">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
-              numquam enim quo aspernatur, excepturi itaque. Dolorem vel, illum
-              pariatur enim necessitatibus architecto et nesciunt dolores odio?
-              Eveniet porro repellendus inventore.
+        <div
+          class="flex flex-col md:flex-row container mx-auto py-6 md:py-8 lg:py-20 max-w-5xl justify-between px-4"
+        >
+          <div class="flex flex-col md:gap-2 order-2 md:order-1">
+            <p class="text-sm md:text-base">Hello</p>
+            <h1 class="text-2xl lg:text-5xl font-semibold tracking-tight">
+              I am Vivian
+            </h1>
+            <p class="text-base md:text-xl font-medium">
+              Writer & Content Creator
             </p>
-            <div class="my-4">
-              <button
-                class="bg-yellow-600 px-4 md:px-6 lg:px-7 py-1 font-medium"
-              >
-                Hire Me
-              </button>
+            <p class="max-w-lg text-sm md:text-base lg:text-lg leading-6">
+              I am a resourceful individual who aims to contribute immensely to
+              developing a viable, innovative and dynamic organization by
+              utilizing my skills, knowledge and dedication to work either as an
+              individual or with a team.
+            </p>
+            <div class="mt-2">
+              <ul class="flex gap-2">
+                <li>
+                  <a href="https://www.instagram.com/vivyan_alex/"
+                    ><img
+                      src="./assets/icons/instagram.svg"
+                      alt="instagram"
+                      class="w-5"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/AlexVivyNnabue"
+                    ><img
+                      src="./assets/icons/twitter.svg"
+                      alt="twitter"
+                      class="w-5"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/vivian-nnabue-5b5857150/"
+                    ><img
+                      src="./assets/icons/linkedin.svg"
+                      alt="linkedin"
+                      class="w-5"
+                  /></a>
+                </li>
+                <li>
+                  <a href="mailto:Alexvivynnabue17@gmail.com"
+                    ><img
+                      src="./assets/icons/gmail.svg"
+                      alt="gmail"
+                      class="w-5"
+                  /></a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div>
-            <p>Picture</p>
+          <div class="order-1 md:order-2 self-end">
+            <div>
+              <img
+                src="./assets/images/viv.png"
+                alt="Vivian Nnabue"
+                class="w-48 h-48 md:w-56 md:h-56 lg:w-80 lg:h-80 object-cover rounded-[50%]"
+              />
+            </div>
           </div>
         </div>
       </section>
-      <section class="lg:py-20 container mx-auto flex" id="about">
-        <div class="w-full lg:w-1/2 flex flex-col gap-3 lg:gap-8">
-          <h2 class="text-xl md:text-2xl lg:text-4xl">About Me</h2>
+      <section
+        class="lg:py-20 container mx-auto flex flex-col md:flex-row max-w-5xl px-4 py-10"
+        id="about"
+      >
+        <div
+          class="w-full lg:w-1/2 flex flex-col gap-3 lg:gap-8 justify-between order-2 md:order-1"
+        >
+          <h2
+            class="text-xl md:text-2xl lg:text-4xl text-right md:text-left font-medium"
+          >
+            About Me
+          </h2>
           <div class="flex flex-col gap-3">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              deserunt natus, fugit excepturi sequi quasi minus non doloribus
-              enim ullam architecto, ducimus hic voluptatum quae debitis nihil
-              provident at quos?
+              I have experience in writing, content creation and social media
+              management and i have been doing so for two years. I have
+              comprehensive knowledge of social Marketing Strategies, Content
+              Creation, and Brand Building. I am also well versed customer
+              relations and personnel management.
             </p>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              deserunt natus, fugit excepturi sequi quasi minus non doloribus
-              enim ullam architecto, ducimus hic voluptatum quae debitis nihil
-              provident at quos?
+              My long term goal is helping brands and business owners build,
+              establish and maintain a strong online and offline presence across
+              all platforms. I want to collaborate with you and go with you on
+              your brand’s journey. I would like to be a part of your business
+              success story.
             </p>
           </div>
           <div class="mt-5">
-            <button class="bg-yellow-600 px-5 py-1">View My CV</button>
+            <a
+              href="https://docs.google.com/document/d/1n1xhKL8s9aEMzzKQPxR3Mic-S7NUcoHj/edit?usp=sharing&ouid=104805587272623444090&rtpof=true&sd=true"
+              class="bg-[#04878A] px-5 py-2 text-white"
+              >View CV</a
+            >
           </div>
         </div>
-        <div class="w-full lg:w-1/2">
-          <p class="text-5xl">2150+</p>
+        <div
+          class="w-full lg:w-1/2 flex md:justify-center order-1 mdicon-menu.svg:order-2"
+        >
+          <div class="grid grid-cols-2">
+            <div
+              class="h-28 w-28 md:h-32 md:w-32 lg:h-56 lg:w-56 rounded-[50%] border-[#04878A] border-2 flex items-center justify-center self-end"
+            >
+              <p>UX Writing</p>
+            </div>
+            <div
+              class="h-28 w-28 md:h-32 md:w-32 lg:h-56 lg:w-56 rounded-[50%] border-[#04878A] border-2 flex items-center justify-center self-end"
+            >
+              <p class="text-center">Content Creation</p>
+            </div>
+            <div
+              class="h-28 w-28 md:h-32 md:w-32 lg:h-56 lg:w-56 rounded-[50%] border-[#04878A] border-2 flex items-center justify-center"
+            >
+              <p class="text-center">Social Media Management</p>
+            </div>
+            <div
+              class="h-28 w-28 md:h-32 md:w-32 lg:h-56 lg:w-56 rounded-[50%] border-[#04878A] border-2 flex items-center justify-center"
+            >
+              <p>Brand Building</p>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="bg-yellow-400 py-10 md:py-15 lg:py-24" id="portfolio">
-        <div class="container mx-auto">
-          <h2 class="text-4xl my-3">Portfolio</h2>
+      <section
+        class="bg-[#03898F] py-10 md:py-15 lg:py-24 text-white"
+        id="portfolio "
+      >
+        <div class="container mx-auto px-2 lg:px-0 max-w-5xl">
+          <h2 class="text-2xl lg:text-4xl my-3 font-medium">Portfolio</h2>
           <div>
-            <h2 class="text-xl">Check out Brands I have worked with</h2>
-            <div class="flex gap-2 flex-wrap">
-              <p>Ourfavepod</p>
-              <p>Dotun Omiyale Photos</p>
-              <p>Dleveral</p>
-              <p>Dola Gbamboye Foundation</p>
-              <p>Scentgenics</p>
+            <h2 class="text-base md:text-xl">
+              Check out Brands I have worked with
+            </h2>
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-col-4 gap-2 md:gap-x-4 md:gap-y-3 mt-3"
+            >
+              <div
+                class="border-white border py-3 justify-center flex hover:cursor-pointer"
+              >
+                <a
+                  href="https://instagram.com/ourfavepods?utm_medium=copy_link"
+                  target="_blank"
+                  >Ourfavepod</a
+                >
+              </div>
+              <div
+                class="border-white border py-3 justify-center flex hover:cursor-pointer"
+              >
+                <a
+                  href="https://instagram.com/ourfavepods?utm_medium=copy_link"
+                  target="_blank"
+                  >Dotun Omiyale Photos</a
+                >
+              </div>
+              <div
+                class="border-white border py-3 justify-center flex hover:cursor-pointer"
+              >
+                <a
+                  href="https://instagram.com/ourfavepods?utm_medium=copy_link"
+                  target="_blank"
+                  >Dleveral</a
+                >
+              </div>
+              <div
+                class="border-white border py-3 justify-center flex hover:cursor-pointer"
+              >
+                <a
+                  href="https://instagram.com/ourfavepods?utm_medium=copy_link"
+                  target="_blank"
+                  >Dola Gbamboye Foundation</a
+                >
+              </div>
+              <div
+                class="border-white border py-3 justify-center flex hover:cursor-pointer"
+              >
+                <a
+                  href="https://instagram.com/ourfavepods?utm_medium=copy_link"
+                  target="_blank"
+                  >Scentgenics</a
+                >
+              </div>
             </div>
           </div>
 
           <div class="my-4">
             <p>
               Check out writings (articles and business proposals) I have done
+              <a href="https://vivian.curious.page/" class="underline">here.</a>
             </p>
-            <div class="flex gap-4 flex-wrap">
-              <p>article</p>
-              <p>article</p>
-              <p>article</p>
-              <p>article</p>
-              <p>article</p>
-              <p>article</p>
-            </div>
           </div>
         </div>
       </section>
-      <section class="container mx-auto py-5" id="contact">
-        <p>Contact Me</p>
-      </section>
     </main>
+    <footer class="py-1 flex justify-end text-sm md:text-base px-1 md:px-4">
+      © 2023 Vivian Chikamma Nnabue. Made with 💕
+    </footer>
     <script src="./script.js"></script>
   </body>
 </html>
